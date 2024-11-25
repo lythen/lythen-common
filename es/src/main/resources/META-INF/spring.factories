@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.lythen.kingkood.es.config.ElasticsearchConverter,\
+  com.lythen.kingkood.es.config.CustomRestClientBuilderCustomizer,\
+  com.lythen.kingkood.es.config.CustomElasticsearchConfig,\
+  com.lythen.kingkood.es.service.IkAnalyzeService, \
+  com.lythen.kingkood.es.aspect.AutoResearchAspect,\
+  com.lythen.kingkood.es.config.CustomThreadPoolExecutor

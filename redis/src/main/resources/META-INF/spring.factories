@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.lythen.kingkood.redis.CacheRedisHelper,\
+  com.lythen.kingkood.redis.aspect.RedisDifferLockAspect
